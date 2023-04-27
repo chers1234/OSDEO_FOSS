@@ -22,5 +22,14 @@
 8. 충돌
 9. 충돌 해결하기(confilct)
 ## 오픈소스 개발환경 구축하기
+cd eclipse-workspace
+git clone geoserver
+cd geoserver
+git branch
+git checkout 2.22.x
+cd src
+mvn install -DsktipTests
+mvn eclipse:eclipse
+
 
 ## 오픈소스 서비스환경
