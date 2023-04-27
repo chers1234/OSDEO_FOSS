@@ -68,11 +68,25 @@ mvn eclipse:eclipse
  * 저장
  * 레이어 미리보기에서 확인
 
-```
+```bash
 작업공간과 저장소는 매핑이 되어있음
 
 QGIS의 레이어 -> 새로운 레이어 생성에서 새 GeoPackage는 QGIS의 Polyline, Ploygon 등을 패키지로 만들어 GeoServer로 올릴 수 있음
 
 PostGIS는 Postgresql 에서 사용 가능
 PostGIS는 Database로 벡터 데이터 활용에서 가장 많이 사용함
+```
+
+### GeoServer Style 추가
+ * style 클릭
+ * 새로운 style 생성하기
+ * file이 있다면 file upload
+
+### 생성된 Style  xml 추출
+ * 레이어 더블클릭
+ * 레이어 렌더링 스타일 선택
+ * 스타일 저장
+ * SLD 스타일로 저장
+```
+QGIS와 GeoServer이 언제나 호환이 되는것은 아님!!
 ```
